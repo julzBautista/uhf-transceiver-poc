@@ -1,0 +1,29 @@
+# Altium generated history/log/output folders
+History/
+Project Logs for Transceiver-April-4th/
+Project Logs for Transceiver-JB/
+Project Outputs for Transceiver-JB/
+
+# Altium generated preview/cache/report files
+__Previews__/
+*.LOG
+*.log
+*.htm
+*.html
+*.rep
+*.REP
+*.rpt
+*.RPT
+*.tmp
+*.bak
+*.Dat
+*.DsnWrk
+
+# Old archive backups
+*.zip
+*.rar
+*.7z
+
+# Windows junk
+Thumbs.db
+Desktop.ini
