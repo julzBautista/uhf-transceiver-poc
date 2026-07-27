@@ -56,13 +56,13 @@ PrefsRevisionGUID=
 ReleaseTarget=3
 
 [Document1]
-DocumentPath=..\..\..\..\a6a6a\Downloads\Real_Transceiver (3-31-2026 6-52-32 PM)\LPF_PA.SchDoc
+DocumentPath=LPF_PA.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=0
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -73,13 +73,13 @@ GenerateClassCluster=0
 DocumentUniqueId=PPWVHMHJ
 
 [Document2]
-DocumentPath=..\..\..\..\a6a6a\Downloads\Real_Transceiver (3-31-2026 6-52-32 PM)\Power_regulation.SchDoc
+DocumentPath=Power_regulation.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=1
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -90,13 +90,13 @@ GenerateClassCluster=0
 DocumentUniqueId=UVUOMUYO
 
 [Document3]
-DocumentPath=..\..\..\..\a6a6a\Downloads\Real_Transceiver (3-31-2026 6-52-32 PM)\si4463.SchDoc
+DocumentPath=si4463.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=2
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -104,16 +104,16 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=OKYQDUIJ
+DocumentUniqueId=FKVMECEL
 
 [Document4]
-DocumentPath=..\..\..\..\a6a6a\Downloads\Real_Transceiver (3-31-2026 6-52-32 PM)\MCU.SchDoc
+DocumentPath=MCU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=3
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -124,13 +124,13 @@ GenerateClassCluster=0
 DocumentUniqueId=RWAKQWVH
 
 [Document5]
-DocumentPath=..\..\..\..\a6a6a\Downloads\Real_Transceiver (3-31-2026 6-52-32 PM)\SW_ANT.SchDoc
+DocumentPath=SW_ANT.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=4
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -141,13 +141,13 @@ GenerateClassCluster=0
 DocumentUniqueId=WVHMNSSL
 
 [Document6]
-DocumentPath=..\..\..\..\a6a6a\Downloads\Real_Transceiver (3-31-2026 6-52-32 PM)\Overview.SchDoc
+DocumentPath=Overview.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=6
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -209,13 +209,13 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document10]
-DocumentPath=..\..\..\..\a6a6a\Downloads\Real_Transceiver (3-31-2026 6-52-32 PM)\BPF_LNA.SchDoc
+DocumentPath=BPF_LNA.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=7
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
