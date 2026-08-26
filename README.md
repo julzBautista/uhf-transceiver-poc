@@ -68,6 +68,26 @@ Testing is intended to use equipment including a **VNA, spectrum analyzer, oscil
 * **C / Embedded Firmware** — MCU and transceiver control
 * **Git** — version control
 
+## PCB Review Notes
+
+### Layout / Routing
+- Trace clearance can be set using **net class rules** so it does not need to be adjusted manually.
+- Consider removing GND copper directly underneath SMD components where appropriate. At this frequency, the effect is likely minor.
+- Avoid **taps / T-junctions** in LC filters. These junctions can behave as unintended series inductance/capacitance or as band-reject stubs because the local junction impedance may differ from 50 Ω. Again, the effect is likely small at this frequency.
+- For **L9 and L11**, avoid placing adjacent inductors with parallel orientations. Consider rotating one inductor by 90° to reduce magnetic cross-coupling. The impact is probably small in this application, but perpendicular placement is preferred.
+- Consider merging **J1 and J3** if the current capacity of a single connector is sufficient.
+- For improved **copper balance**, consider adding a copper pour on the bottom layer to reduce the risk of PCB warping during fabrication.
+
+### Component / Schematic Changes
+- **C31 and C46** may not be necessary because the corresponding filters already contain internal DC-blocking capacitors.
+- **C35** may not be necessary. Lumped-element band-pass filters are typically DC-open; verify this against the specific filter datasheet.
+- Consider adding additional **decoupling capacitors** close to the CTRL and supply pins of **IC1**.
+- Clean up component reference designators for consistency. For example, use `Uxx` for ICs instead of mixing `Bxx`, `ICxx`, etc.
+
+### Digital Interface
+- **FIXME:** Connect the SI4463 SPI interface to the STM32's hardware SPI pins rather than using arbitrary GPIO pins.
+- Consider connecting the SI4463 **Direct Mode `TX_DATA`, `RX_DATA`, and `CLK` signals** to suitable STM32 hardware peripheral pins to support continuous bit streaming.
+
 ## Project Status
 
 **Revision 1 — Proof of Concept**
